@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+
+<body>
+
+
+    <!-- Esto es un comentario es pura caca , Esto es el formulario -->
+
+
+    <header class="header">
+        <div class="Imagen1">
+            <img src="/Proyecto/imagenes/j.jpg" alt="/Proyecto/imagenes/Nike.jpg">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="Contacto.html" target="_blank">Contacto</a>
+                </li>
+                <li>
+                    <a href="Formulario.html" target="_blank">Formulario</a>
+                </li>
+                <li>
+                    <a href="/Proyecto/Proyecto.html" target="_blank">Curriculum</a>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="btn"><button><a href="Contacto.html" target="_blank">Contacto</a></button></h3>
+    </header>
+
+    <form action="ejemplo.php" method="get">
+        <h3>Formulario </h3>
+        <input type="text" class="controls" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre">
+        <input type="text" class="controls" name="Apellidos" id="Apellidos" value="Ingrese sus Apellidos">
+        <input type="email" class="controls" name="Correo" value="Ingrese su correo" >
+        <input type= "date" class="controls">
+        <input type="password" class="controls" required placeholder="Escriba su Contraseña">
+        <button type="submit" class="boton1">
+            <img src="imagenes/flecha.png" alt="imagen" width="14" style="vertical-align: middle;" height="14"> 
+            ENVIAR
+        </button>
+        <p>Sexo
+            <br>
+            <input type="radio" name="hm" value="h">Hombre
+            <input type="radio" name="hm" value="m">Mujer
+        </p>
+            <p>Cuanto le das de nota del 1 al 10 de la pagina web</p>
+            <select>
+            <option value="1">Uno</option>
+            <option value="2">Dos</option>
+            <option value="3">Tres</option>
+            <option value="4">Cuatro</option>
+            <option value="5">Cinco</option>
+            <option value="6">Seis</option>
+            <option value="7">Siete</option>
+            <option value="8">Ocho</option>
+            <option value="9">Nueve</option>
+            <option value="10">Diez</option>
+            </select>
+            <br>
+            <br>
+            <p class="we">Estoy de acuerdo con</p><p class="re"> Terminos y Condiciones</p>
+            <input type="checkbox" class="boton">
+    </form>
+
+
+    </body>
+</html>
