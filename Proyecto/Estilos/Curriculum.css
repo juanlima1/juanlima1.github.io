@@ -1,0 +1,101 @@
+body{
+    background: grey;
+    margin: 0px;
+}
+
+.header{
+    background: linear-gradient(to right, #8c87c4, rgb(14, 45,65 ));
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 5%;
+}
+
+/* Imagen */
+
+.Imagen1 img{
+    border-radius: 75%;
+    height: 74px;
+    width: 80px;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+.Imagen1 img:hover{  
+    transform: scale(1.2);
+}
+
+/*Fin-Imagen */
+
+
+/* Listas */
+
+.header nav ul li a:visited{
+    color: red;   
+}
+
+.header nav ul li a:hover{
+    color: black;
+}
+
+.header nav ul li a{
+    color: rgb(207, 167, 93);
+    text-decoration: none;
+    transition: all 0.84s;
+}
+
+/* Fin-Listas */
+
+.header nav ul{
+    list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline-block;
+    padding: 0px 33px ;
+}
+
+.header nav ul li:hover{
+    transform: scale(1.6);
+}
+
+/* Boton */
+
+.header .btn button{
+    color: rgb(185, 133, 35);
+    transition: all 0.4s;
+    background: wheat;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+.header .btn button a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.header .btn button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.header .btn button a:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+
+/* Fin-Boton */
+
+
+/* Tablas */
+
+table{
+    border: #2f23bb solid;
+    background-image: url(/Proyecto/imagenes/FACHero.jpg);
+    
+}
+
