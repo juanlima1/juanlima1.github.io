@@ -158,9 +158,9 @@ form .boton{
 
 
 /* Formulario-Select */
-    form select:hover{
-        background-color: red;
-        color:aqua;
-    }
+form select:hover{
+    background-color: red;
+    color:aqua;
+}
 /* Fin Formulario-Select */
 
