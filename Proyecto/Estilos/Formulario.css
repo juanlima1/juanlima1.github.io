@@ -117,8 +117,8 @@ h3{
 }
 
 form .controls:hover{
-    background-color: rgb(16, 16, 128);
-    color: green;
+    background-color: rgb(5, 14, 63);
+    color:rgb(21, 21, 219);
 }
 /* Input boton*/
 
