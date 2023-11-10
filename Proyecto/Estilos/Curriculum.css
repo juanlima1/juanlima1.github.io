@@ -95,7 +95,10 @@ body{
 
 table{
     border: #2f23bb solid;
-    background-image: url(/Proyecto/imagenes/FACHero.jpg);
-    
 }
+
+thead{
+    color: red;
+}
+
 
