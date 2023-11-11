@@ -62,9 +62,8 @@ body{
 /* Boton */
 
 .header button{
-    color: rgb(185, 133, 35);
     transition: all 0.4s;
-    background: wheat;
+    background: rgb(78, 76, 76);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -73,7 +72,7 @@ body{
 }
 .header button a{
     text-decoration: none;
-    color: blue;
+    color:red;
 }
 
 
@@ -83,7 +82,7 @@ body{
 }
 
 .header button a:hover{
-    color: red;
+    color: white;
     transform: scale(1.1);
 }
 
