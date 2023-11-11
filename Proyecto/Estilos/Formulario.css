@@ -8,7 +8,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    height: 88px;
+    height: 80px;
     padding: 10px 5%;
 }
 
@@ -61,7 +61,7 @@ body{
 
 /* Boton */
 
-.header .btn button{
+.header button{
     color: rgb(185, 133, 35);
     transition: all 0.4s;
     background: wheat;
@@ -71,18 +71,18 @@ body{
     transition: all 0.5s;
 
 }
-.header .btn button a{
+.header button a{
     text-decoration: none;
     color: blue;
 }
 
 
-.header .btn button:hover{
+.header button:hover{
     background-color: blue;
     transform: scale(1.1);
 }
 
-.header .btn button a:hover{
+.header button a:hover{
     color: red;
     transform: scale(1.1);
 }
