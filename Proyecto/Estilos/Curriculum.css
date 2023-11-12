@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to left ,rgb(152, 216, 216),rgb(221, 12, 12));
+    background: linear-gradient(to left ,blue , rgb(0, 0, 44));
     margin: 0px;
 }
 
@@ -137,11 +137,12 @@ aside{
     float: left;
     margin-right: 0px;
     border: solid 1px red;
+    text-align: center;
 }
 
 aside .Yo h3{
     color: #110a61;
-    margin: 0px;
+    margin-top: 10px;
 }
 
 
