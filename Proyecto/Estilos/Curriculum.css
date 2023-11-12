@@ -1,5 +1,5 @@
 body{
-    background: grey;
+    background: linear-gradient(to left ,rgb(152, 216, 216),rgb(221, 12, 12));
     margin: 0px;
 }
 
@@ -100,5 +100,57 @@ table{
 thead{
     color: red;
 }
+
+/* Fin-Tablas */
+
+/* Informacion */
+
+.Información{
+    background: green;
+    width: 82%;
+    float: left;
+    text-align: center;
+    border-radius: 400px;
+    border: solid black;
+}
+
+.Información h1{
+    margin-top:10px ;
+    text-transform: capitalize;
+    color: #110a61;
+}
+
+.Información p:last-child{
+    color: red;
+}
+
+.Información p a{
+    text-decoration:none;
+    color: red;
+}
+
+/* Aside */
+aside{
+    width: 17.58%;
+    height: 300px;
+    background: gray;
+    float: left;
+    margin-right: 0px;
+    border: solid 1px red;
+}
+
+aside .Yo h3{
+    color: #110a61;
+    margin: 0px;
+}
+
+
+
+
+
+/* Fin-Aside */
+
+
+
 
 
