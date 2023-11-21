@@ -1,6 +1,8 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .header{
@@ -104,18 +106,18 @@ main {
 
 #Lado_Izquierdo {
     background: red;
-    height: 650px;
+    height: 467px;
     width: 200px;
 }
 
 #Lado_Derecho {
     background: orange;
-    height: 650px;
+    height: 467px;
     width: 203px;
 }
 
 footer{
     background: yellow;
-    height: 213px;
+    height: 100px;
 }
 
