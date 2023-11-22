@@ -93,16 +93,29 @@ main {
 }
 
 #Lado_Izquierdo {
-    background: rgb(190, 30, 30);
+    background: rgb(8, 8, 145);
     height: 870px;
-    width: 200px;
-    text-align: center;
+    width: 170px;
     margin-bottom: 0%;
 }
 
 #Lado_Izquierdo ul{
     list-style-type: none;
 }
+
+#Lado_Izquierdo ul li{
+    margin-top: 200px;
+}
+
+#Lado_Izquierdo ul li a{
+    text-decoration: none;
+    color: rgb(82, 7, 7);
+}
+
+#Lado_Izquierdo ul li a:hover{
+    color: white;
+}
+
 
 footer{
     background: rgb(223, 223, 27);
