@@ -1,0 +1,208 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    margin: auto;
+}
+
+header{
+    background: linear-gradient(to right, #8c87c4, rgb(14, 45,65 ));
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 5%;
+}
+
+.Imagen1 img{
+    border-radius: 75%;
+    height: 74px;
+    width: 80px;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+.Imagen1 img:hover{  
+    transform: scale(1.2);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 33px ;
+}
+
+header nav ul li:hover{
+    transform: scale(1.6);
+}
+
+header nav ul li a:visited{
+    color: red;   
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+header nav ul li a{
+    color: rgb(207, 167, 93);
+    text-decoration: none;
+    transition: all 0.84s;
+}
+
+header button{
+    transition: all 0.4s;
+    background: rgb(78, 76, 76);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+header button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+header button a{
+    text-decoration: none;
+    color:red;
+}
+
+header button a:hover{
+    color: rgb(207, 167, 93);
+    transform: scale(1.1);
+}
+
+
+.container {
+    display: flex;
+}
+
+main {
+    background-color: rgb(47, 47, 209);
+    flex: 1;
+}
+
+.Informacion{
+    background-color: rgb(168, 16, 16);
+    padding: 30px;
+}
+.Informacion p{
+    padding: 10px;
+    padding-left: 690px;
+}
+.Informacion h3{
+    text-transform: uppercase;
+    color: wheat;
+    text-align: center;
+}
+
+
+
+.tablas{
+    background: linear-gradient(to right,rgb(97, 97, 141) , rgb(35, 35, 95));
+    padding-left: 400px;
+    padding-top: 60px;
+}
+.Prin{
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+    border: red 2px solid;
+
+
+}
+td{
+    text-align: center;
+    border: red 2px solid;
+    padding: 20px;
+    color: rgb(1, 10, 63);
+}
+
+
+.Estudios{
+    background: linear-gradient(to right,rgb(97, 97, 141) , rgb(35, 35, 95));
+    padding: 20px 0px 0px 30px;
+}
+
+.Estudios h3{  
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.Estudios p{
+    margin: 28px 0px 0px 10px;
+}
+
+
+.Habilidad{
+    background: linear-gradient(to right,rgb(97, 97, 141) , rgb(35, 35, 95));
+    padding: 15px;
+}
+
+.Habilidad h3{
+    padding: 17px;
+    text-transform: uppercase;
+}
+
+.Habilidad p{
+    margin: 10px 0px 20px 17px;
+}
+
+
+aside {
+    background-color: rgb(5, 14, 63);
+    padding: 20px;
+    width: 250;
+    border: solid white 2px;
+}
+
+footer {
+    background-color: rgb(168, 16, 16);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+aside ul li a{
+    text-decoration: none;
+    color: rgb(100, 180, 177);
+}
+h4{
+    color: red;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.roto{
+    width: 70px;
+    height: 70px;
+    display: block;
+}
+.roto2{
+    width: 90px;
+    height: 62px;
+    display: block;
+}
+.roto3{
+    width: 85px;
+    height: 60px;
+    display: block;
+}
+.roto4{
+    width: 80px;
+    height: 70px;
+    display: block;
+}
