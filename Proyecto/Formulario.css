@@ -216,7 +216,6 @@ form select:hover{
 /* Pie de pagina */
 
 .PieForm{
-    font-family: Arial, sans-serif;
     text-align: center;
     background: rgb(51, 66, 134);
     height: 95px;
@@ -230,7 +229,7 @@ form select:hover{
 }
 
 .PieForm p{
-    color: rgb(210, 53, 53);
+    color: wheat;
 }
 
 /* Fin De pagina */
