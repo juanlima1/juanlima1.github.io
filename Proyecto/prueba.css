@@ -114,18 +114,22 @@ h4{
 .roto{
     width: 70px;
     height: 70px;
+    display: block;
 }
 .roto2{
     width: 90px;
     height: 62px;
+    display: block;
 }
 .roto3{
     width: 85px;
     height: 60px;
+    display: block;
 }
 .roto4{
     width: 80px;
     height: 70px;
+    display: block;
 }
 
 main { 
