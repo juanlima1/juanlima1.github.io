@@ -116,15 +116,15 @@ main {
     font-size: 20px;
     text-transform: uppercase;
     padding: 20px;
-    border: red 2px solid;
+    border: rgb(109, 10, 10)2px solid;
 
 
 }
 td{
     text-align: center;
-    border: red 2px solid;
+    border: rgb(109, 10, 10) 2px solid;
     padding: 20px;
-    color: rgb(1, 10, 63);
+    color: rgb(2, 43, 70);
 }
 
 
