@@ -1,3 +1,6 @@
+body{   
+    margin: auto;
+}
 .header{
     background: linear-gradient(to right, #8c87c4, rgb(14, 45,65 ));
     display:flex;
@@ -22,8 +25,24 @@
 
 /*Fin-Imagen */
 
-
 /* Listas */
+
+.header nav ul{
+    list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline-block;
+    padding: 0px 33px ;
+}
+
+.header nav ul li:hover{
+    transform: scale(1.6);
+}
+
+/* Fin - Listas */
+
+/* Enlace */
 
 .header nav ul li a:visited{
     color: red;   
@@ -39,20 +58,7 @@
     transition: all 0.84s;
 }
 
-/* Fin-Listas */
-
-.header nav ul{
-    list-style-type: none;
-}
-
-.header nav ul li{
-    display: inline-block;
-    padding: 0px 33px ;
-}
-
-.header nav ul li:hover{
-    transform: scale(1.6);
-}
+/* Fin - Enlace */
 
 /* Boton */
 
@@ -65,88 +71,84 @@
     transition: all 0.5s;
 
 }
-.header button a{
-    text-decoration: none;
-    color:red;
-}
-
 
 .header button:hover{
     background-color: blue;
     transform: scale(1.1);
 }
 
+.header button a{
+    text-decoration: none;
+    color:red;
+}
+
 .header button a:hover{
-    color: white;
+    color: rgb(207, 167, 93);
     transform: scale(1.1);
 }
 
 
 /* Fin-Boton */
-
-body{
-    background: linear-gradient(to right,rgb(165, 165, 201) , rgb(0, 0, 44));
-    margin: auto;
+aside {
+    background-color: rgb(138, 24, 24);
+    width: 205px;
+    height: 850px;
+    float: left;
 }
-main {
-    display: flex;
-    justify-content: space-between;
-}
-
-#Lado_Izquierdo {
-    background: rgb(8, 8, 145);
-    height: 870px;
-    width: 170px;
-    margin-bottom: 0%;
-}
-
-#Lado_Izquierdo ul{
+aside ul{
     list-style-type: none;
 }
-
-#Lado_Izquierdo ul li{
-    margin-top: 200px;
+aside ul li{
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
-
-#Lado_Izquierdo ul li a{
+aside ul li a{
     text-decoration: none;
-    color: rgb(82, 7, 7);
+    color: rgb(100, 180, 177);
 }
-
-#Lado_Izquierdo ul li a:hover{
-    color: white;
-}
-
-
-footer{
-    background: rgb(223, 223, 27);
-    height: 90px;
+h4{
+    color: red;
     text-align: center;
-    margin-top: 0%;
+    padding-bottom: 0px;
+}
+.roto{
+    width: 70px;
+    height: 70px;
+}
+.roto2{
+    width: 90px;
+    height: 62px;
+}
+.roto3{
+    width: 85px;
+    height: 60px;
+}
+.roto4{
+    width: 80px;
+    height: 70px;
 }
 
-
-
-
-
-
-
-/* formulario */
+main { 
+    background: linear-gradient(to right,rgb(97, 97, 141) , rgb(1, 1, 32));
+    height: 750px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+/* Formulario */
 
 form{
     width: 430px;
     background-color: rgb(5, 14, 63);
     border-radius: 8%;
     color: rgb(12, 144, 177) ;
-    margin: auto;
-    margin-top: 40px;
     padding: 30px;
-    margin-right: 450px;
+    margin-left: 780px;
 }
 
-h3{
+.Patron{
     text-align: center;
-    color: rgb(156, 92, 13);
+    color: rgb(207, 167, 93);
+    text-transform: uppercase;
 }
 
 .controls{
@@ -163,13 +165,13 @@ form .controls:hover{
     background-color: rgb(157, 163, 197);
     color:rgb(21, 21, 219);
 }
-/* Input boton*/
+
+/* Input Enviar*/
 
 form .boton1{
     margin-top: 10px;
 
 }
-
 /* Fin -Input boton*/
 
 
@@ -204,3 +206,27 @@ form select:hover{
 }
 /* Fin Formulario */
 
+
+
+
+/* Pie de pagina */
+
+.PieForm{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: rgb(51, 66, 134);
+    height: 95px;
+}
+
+.pie{
+    margin : 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(118, 177, 177);
+}
+
+.PieForm p{
+    color: rgb(210, 53, 53);
+}
+
+/* Fin De pagina */
