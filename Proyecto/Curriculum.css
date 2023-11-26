@@ -108,7 +108,8 @@ main {
 .tablas{
     background: linear-gradient(to right,rgb(97, 97, 141) , rgb(35, 35, 95));
     padding-left: 400px;
-    padding-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .Prin{
     color: black;
@@ -155,21 +156,21 @@ td{
     margin: 10px 0px 20px 17px;
 }
 
+footer {
+    background-color: rgb(168, 16, 16);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
 
 aside {
     background-color: rgb(5, 14, 63);
     padding: 20px;
     width: 250;
     border: solid white 2px;
-}
-
-footer {
-    background-color: rgb(168, 16, 16);
-    padding: 10px;
     text-align: center;
-    color: white;
 }
-
 aside ul{
     list-style-type: none;
 }
@@ -190,19 +191,26 @@ h4{
     width: 70px;
     height: 70px;
     display: block;
+    padding-left: 63px;
 }
 .roto2{
     width: 90px;
     height: 62px;
     display: block;
+    padding-left: 57px;
+
 }
 .roto3{
     width: 85px;
     height: 60px;
     display: block;
+    padding-left: 57px;
+
 }
 .roto4{
     width: 80px;
     height: 70px;
     display: block;
+    padding-left: 57px;
+
 }
