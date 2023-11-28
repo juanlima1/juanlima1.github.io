@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 body{   
     margin: auto;
 }
@@ -86,36 +90,90 @@ body{
     color: rgb(207, 167, 93);
     transform: scale(1.1);
 }
-
+/* FIN NAV */
 
 aside {
-    background-color: rgb(138, 24, 24);
-    width: 205px;
-    height: 850px;
+    background-color: rgb(223, 23, 23);
+    width: 10%;
+    height: 990px;
     float: left;
+    text-align: center;
+}
+aside h4{
+    color: blue;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+aside ul{
+    list-style-type: none;
+}
+aside ul li{
+    margin-top: 85px;
+    margin-bottom: 40px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: rgb(100, 180, 177);
+}
+
+.roto{
+    width: 85px;
+    height: 70px;
+    display: block;
+    margin-left: 23px;
+}
+.roto2{
+    width: 90px;
+    height: 62px;
+    display: block;
+    margin-left: 20px;
+}
+.roto3{
+    width: 85px;
+    height: 60px;
+    display: block;
+    margin-left: 20px;
+}
+.roto4{
+    width: 80px;
+    height: 70px;
+    display: block;
+    margin-left: 20px;
+
 }
 
 main { 
-    background: linear-gradient(to right,rgb(97, 97, 141) , rgb(1, 1, 32));
-    height: 750px;
-    padding-top: 70px;
-    padding-bottom: 30px;
+    background: linear-gradient(to right,rgb(156, 156, 221) , rgb(28, 28, 214));
+    height: 990px;
 }
 
-.PieForm{
-    text-align: center;
-    background: rgb(51, 66, 134);
-    height: 95px;
-}
-
-.pie{
-    margin : 0px;
+main h3,p{
+    margin-left: 180px;
     padding-top: 20px;
-    padding-bottom: 10px;
-    color: rgb(118, 177, 177);
+    padding-bottom: 20px;
 }
 
-.PieForm p{
-    color: wheat;
+.Captura{
+    width: 530px;
+    height: 300px;
+    display: block;
+    padding-left: 20px;
 }
 
+.Parra{
+    margin-left: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+iframe{
+    padding-left: 20px;
+}
+
+/* Footer */
+footer{
+    background: orange;
+    text-align: center;
+}
