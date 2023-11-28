@@ -106,6 +106,8 @@ header button a:hover{
 main {
     flex: 1;
     display: flex;
+    background: linear-gradient(to right,rgb(156, 156, 221) , rgb(28, 28, 214));
+
 }
 
 .LadoDer{
@@ -148,10 +150,21 @@ main {
     text-align: center;
     border: 2px solid black;
     height: 70%;
+    padding: 20px;
 }
 .Content3 ul{
     margin: 10px;
     list-style-type: none;
 }
+.Content3 ul li{
+    margin-top: 25px;
+}
 
 
+footer{
+    background: orangered;
+    text-align: center;
+    height: 40px;
+    color: white;
+    padding: 30px;
+}
