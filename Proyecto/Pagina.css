@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{   
+    margin: auto;
+}
+header{
+    background: linear-gradient(to right, #8c87c4, rgb(14, 45,65 ));
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 5%;
+}
+
+/* Imagen */
+
+.Imagen1 img{
+    border-radius: 75%;
+    height: 74px;
+    width: 80px;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+.Imagen1 img:hover{  
+    transform: scale(1.2);
+}
+
+/*Fin-Imagen */
+
+/* Listas */
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0px 33px ;
+}
+
+.header nav ul li:hover{
+    transform: scale(1.6);
+}
+
+/* Fin - Listas */
+
+/* Enlace */
+
+header nav ul li a:visited{
+    color: red;   
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+header nav ul li a{
+    color: rgb(207, 167, 93);
+    text-decoration: none;
+    transition: all 0.84s;
+}
+
+/* Fin - Enlace */
+
+/* Boton */
+
+header button{
+    transition: all 0.4s;
+    background: rgb(78, 76, 76);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+header button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+header button a{
+    text-decoration: none;
+    color:red;
+}
+
+header button a:hover{
+    color: rgb(207, 167, 93);
+    transform: scale(1.1);
+}
+/*  */
+
+.LadoIzq{
+    background-color: orange;
+    width: 150px;
+    height: 850px;
+    float: left;
+}
+.container {
+    display: flex;
+}
+
+main {
+    flex: 1;
+    display: flex;
+}
+
+.LadoDer{
+    background-color: red;
+    width: 150px;
+    height: 850px;
+    float: right;
+}
+
+/*  */
+
+.Content1{
+    background-color: #8c87c4;
+    width: 30%;
+    margin-right: 100px;
+    margin-left: 5%;
+    border: 2px solid black;
+    height: 70%;
+    text-align: center;
+}
+.Content1 p{
+    padding: 10px;
+}
+.Content2{
+    background-color: aqua;
+    width: 30%;
+    margin-right: 100px;
+    height: 70%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.Content2 ul{
+    list-style-type: none;
+}
+.Content3{
+    background: yellow;
+    width: 30%;
+    margin-right: 5%;
+    text-align: center;
+    border: 2px solid black;
+    height: 70%;
+}
+.Content3 ul{
+    margin: 10px;
+    list-style-type: none;
+}
+
+
