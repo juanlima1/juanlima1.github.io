@@ -93,6 +93,9 @@ header button a:hover{
 }
 /*  */
 
+
+
+
 .LadoIzq{
     background-color: orange;
     width: 150px;
@@ -125,7 +128,7 @@ main {
     margin-right: 100px;
     margin-left: 5%;
     border: 2px solid black;
-    height: 70%;
+    height: 50%;
     text-align: center;
 }
 .Content1 p{
@@ -135,7 +138,7 @@ main {
     background-color: aqua;
     width: 30%;
     margin-right: 100px;
-    height: 70%;
+    height: 50%;
     border: 2px solid black;
     text-align: center;
 }
@@ -149,7 +152,7 @@ main {
     margin-right: 5%;
     text-align: center;
     border: 2px solid black;
-    height: 70%;
+    height: 50%;
     padding: 20px;
 }
 .Content3 ul{
@@ -160,6 +163,11 @@ main {
     margin-top: 25px;
 }
 
+#Content4{
+    display: block;
+    background: yellowgreen;
+    text-align: center;
+}
 
 footer{
     background: orangered;
