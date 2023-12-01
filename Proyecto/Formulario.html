@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Formulario.css">
-    <title>Mi Página Web</title>
+    <title>Formulario</title>
 </head>
 <body>
 
@@ -50,7 +50,7 @@
             </ul>
         </aside>
         <main>
-            <form action="ejemplo.php" method="get">
+            <form action="#" method="get">
                 <h3 class="Patron">Formulario </h3>
                 <input type="text" class="controls" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre">
                 <input type="text" class="controls" name="Apellidos" id="Apellidos" value="Ingrese sus Apellidos">
@@ -60,7 +60,7 @@
                 <input type="text" class="controls" placeholder="Cuando es tu cumpleaños">
                 <input type="number" class="controls" required placeholder="Selecione su edad" min="10" max="50" >
                 <input type="password" class="controls" required placeholder="Escriba su Contraseña">
-                <button type="submit" class="boton1">
+                <button type="submit" class="boton1" onclick="myfuncion()">
                     <img src="imagenes/flecha.png" alt="imagen" width="14" style="vertical-align: middle;" height="14"> 
                     ENVIAR
                 </button>
@@ -92,5 +92,11 @@
             <h4 class="pie">Pie de pagina</h4>
             <p>Esta pagina esta hecha por Juan Pablo de la clase 2SMRC</p>
         </footer>
+
+        <script>
+            function myfuncion() {
+                alert("Muchas gracias por rellenar el formulario");
+            }
+        </script>
 </body>
 </html>
