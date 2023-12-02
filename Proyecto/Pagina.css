@@ -93,8 +93,6 @@ header button a:hover{
 }
 
 
-
-
 .LadoIzq{
     background-color: orange;
     width: 150px;
@@ -119,47 +117,42 @@ main {
     float: right;
 }
 
-/*  */
-
 .Content1{
-    background-color: #8c87c4;
-    width: 30%;
-    margin-right: 100px;
+    background: #8c87c4;
+    width: 28%;
+    margin-right: 5%;
     margin-left: 5%;
+    text-align: center;
     border: 2px solid black;
     height: 50%;
-    text-align: center;
+    padding: 20px;
 }
+
+.Content1 h4{
+    margin-top: 10px;
+}
+
 .Content1 p{
-    padding: 10px;
+    margin: 20px;
 }
 .Content2{
-    background-color: aqua;
-    width: 30%;
-    margin-right: 100px;
-    height: 50%;
-    border: 2px solid black;
-    text-align: center;
-}
-
-.Content2 ul{
-    list-style-type: none;
-}
-.Content3{
-    background: yellow;
-    width: 30%;
+    background: aqua;
+    width: 28%;
     margin-right: 5%;
     text-align: center;
     border: 2px solid black;
     height: 50%;
     padding: 20px;
 }
-.Content3 ul{
-    margin: 10px;
-    list-style-type: none;
-}
-.Content3 ul li{
-    margin-top: 25px;
+
+.Content3{
+    background: yellow;
+    width: 28%;
+    margin-right: 5%;
+    text-align: center;
+    border: 2px solid black;
+    height: 50%;
+    padding: 20px;
 }
 
 #Content4{
