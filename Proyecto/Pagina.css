@@ -92,15 +92,15 @@ header button a:hover{
     transform: scale(1.1);
 }
 
+.container {
+    display: flex;
+}
 
 .LadoIzq{
     background-color: orange;
     width: 150px;
     height: 850px;
     float: left;
-}
-.container {
-    display: flex;
 }
 
 main {
