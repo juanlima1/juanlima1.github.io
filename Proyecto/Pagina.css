@@ -14,7 +14,7 @@ header{
     top: 0;
     z-index: 1;
 }
-
+/* Nav */
 .Imagen1 img{
     border-radius: 75%;
     height: 74px;
@@ -79,10 +79,13 @@ header button a:hover{
     transform: scale(1.1);
 }
 
+/* Fin */
+
 aside {
     height: 869px;
     padding: 10px;
     box-sizing: border-box;
+    border: 3px solid black;
 }
 
 #aside-izquierdo {
@@ -217,7 +220,7 @@ section.columnas p{
 footer{
     margin-top: 756px;
     background: red;
-    height: 100px;
+    height: 70px;
     text-align: center;
     color: white;
 }
