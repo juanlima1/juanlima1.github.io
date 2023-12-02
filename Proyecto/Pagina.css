@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: linear-gradient(to right,rgb(156, 156, 221) , rgb(28, 28, 214));
+    background-image:url(/Proyecto/imagenes/ficticius.jpg);
 }
 
 header{
@@ -10,6 +10,9 @@ header{
     align-items: center;
     height: 80px;
     padding: 10px 5%;
+    position:sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .Imagen1 img{
@@ -76,10 +79,8 @@ header button a:hover{
     transform: scale(1.1);
 }
 
-
-
 aside {
-    height: 850px;
+    height: 869px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -104,6 +105,13 @@ aside {
     color: red;
     margin-top: 50px;
 }
+figure {
+    margin: 0; 
+}
+
+figcaption {
+    text-align: left; 
+}
 
 #Spotify{
     width: 200px;
@@ -121,12 +129,16 @@ aside {
     float: right;
     width: 13%;
 }
-figure {
-    margin: 0; 
+
+.Cabeza{
+    margin-top: 40px;
 }
-  
-figcaption {
-    text-align: left; 
+
+#segundo{
+    margin: 0;
+}
+#cesped{
+    text-align: right;
 }
 
 #aside-derecho ul{
@@ -145,28 +157,31 @@ figcaption {
 #aside-derecho h3{
     text-align: center;
 }
-.roto{
-    width: 70px;
-    height: 70px;
-    display: block;
+#Yotube{
+    color: aqua;
+    text-decoration: none;
+    margin-left: 100px;
 }
-.roto2{
-    width: 90px;
-    height: 62px;
-    display: block;
-}
-.roto3{
-    width: 85px;
-    height: 60px;
-    display: block;
-}
+
 .roto4{
     width: 80px;
     height: 70px;
     display: block;
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
+#Parrafo3{
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: center;
+}
 
+#Parrafo-Derecho{
+    color: white;
+    text-align: center;
+}
 main{
     margin: 0 20%;
     padding: 20px;
@@ -180,15 +195,17 @@ h2{
     font-size: 19px;
     color: wheat;
 }
-
-
-.columna {
-    width: 30%;
+section.columnas{
     float: left;
     padding: 10px;
     box-sizing: border-box;
-    margin-left: 30px;
-    font-size: 21px;
+    column-count: 3;
+    margin-top: 50px;
+
+}
+
+section.columnas p{
+    break-after: column;
 }
 
 .tiempo{
