@@ -1,11 +1,8 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 0;
+    background: linear-gradient(to right,rgb(156, 156, 221) , rgb(28, 28, 214));
 }
 
-body{   
-    margin: auto;
-}
 header{
     background: linear-gradient(to right, #8c87c4, rgb(14, 45,65 ));
     display:flex;
@@ -14,8 +11,6 @@ header{
     height: 80px;
     padding: 10px 5%;
 }
-
-/* Imagen */
 
 .Imagen1 img{
     border-radius: 75%;
@@ -28,26 +23,19 @@ header{
     transform: scale(1.2);
 }
 
-/*Fin-Imagen */
-
-/* Listas */
-
 header nav ul{
     list-style-type: none;
 }
 
 header nav ul li{
     display: inline-block;
-    padding: 0px 33px ;
+    padding: 0px 70px ;
+    font-size: 105%;
 }
 
-.header nav ul li:hover{
+header nav ul li:hover{
     transform: scale(1.6);
 }
-
-/* Fin - Listas */
-
-/* Enlace */
 
 header nav ul li a:visited{
     color: red;   
@@ -62,10 +50,6 @@ header nav ul li a{
     text-decoration: none;
     transition: all 0.84s;
 }
-
-/* Fin - Enlace */
-
-/* Boton */
 
 header button{
     transition: all 0.4s;
@@ -92,84 +76,124 @@ header button a:hover{
     transform: scale(1.1);
 }
 
-.container {
-    display: flex;
+
+
+aside {
+    height: 850px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.LadoIzq{
+#aside-izquierdo {
     background-color: orange;
-    width: 150px;
-    height: 850px;
     float: left;
+    width: 13%;
+}
+#aside-izquierdo h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+
+}
+#aside-izquierdo p{
+    margin-left: 5px;
 }
 
-main {
-    flex: 1;
-    display: flex;
-    background: linear-gradient(to right,rgb(156, 156, 221) , rgb(28, 28, 214));
-
+.Viceversa{
+    color: red;
+    margin-top: 50px;
 }
 
-.LadoDer{
-    background-color: red;
-    width: 150px;
-    height: 850px;
+#Spotify{
+    width: 200px;
+    height: 180px;
+    margin-left: 5px;
+}
+
+#Fortnite{
+    width: 220px;
+    height: 200px;
+}
+
+#aside-derecho {
+    background-color: rgb(117, 18, 18);
     float: right;
+    width: 13%;
 }
 
-.Content1{
-    background: #8c87c4;
-    width: 28%;
-    margin-right: 5%;
-    margin-left: 5%;
+#aside-derecho ul{
+    list-style-type: none;
+}
+#aside-derecho ul li{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding-left: 30px;
+}
+
+#aside-derecho ul li a{
+    text-decoration: none;
+    color: rgb(100, 180, 177);
+}
+#aside-derecho h3{
     text-align: center;
-    border: 2px solid black;
-    height: 50%;
-    padding: 20px;
 }
-
-.Content1 h4{
-    margin-top: 10px;
-}
-
-.Content1 p{
-    margin: 20px;
-}
-.Content2{
-    background: aqua;
-    width: 28%;
-    margin-right: 5%;
-    text-align: center;
-    border: 2px solid black;
-    height: 50%;
-    padding: 20px;
-}
-
-.Content3{
-    background: yellow;
-    width: 28%;
-    margin-right: 5%;
-    text-align: center;
-    border: 2px solid black;
-    height: 50%;
-    padding: 20px;
-}
-
-#Content4{
+.roto{
+    width: 70px;
+    height: 70px;
     display: block;
-    background: yellowgreen;
-    text-align: center;
 }
+.roto2{
+    width: 90px;
+    height: 62px;
+    display: block;
+}
+.roto3{
+    width: 85px;
+    height: 60px;
+    display: block;
+}
+.roto4{
+    width: 80px;
+    height: 70px;
+    display: block;
+}
+
+
+main{
+    margin: 0 20%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: wheat;
+}
+
+
+.columna {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    font-size: 21px;
+}
+
+.tiempo{
+    text-align: center;
+    color: black;
+}
+
 
 footer{
-    background: orangered;
+    margin-top: 756px;
+    height: 70px;
+    background: red;
     text-align: center;
-    height: 40px;
     color: white;
-    padding: 30px;
 }
 
-
-#Axel{
-    background: rgb(68, 1, 1);
-}
