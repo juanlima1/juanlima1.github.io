@@ -88,16 +88,16 @@ header button a:hover{
 /* Fin-Boton */
 aside {
     background-color: rgb(138, 24, 24);
-    width: 13%;
-    height: 850px;
+    width: 10%;
+    height: 890px;
     float: left;
 }
 aside ul{
     list-style-type: none;
 }
 aside ul li{
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
 aside ul li a{
     text-decoration: none;
@@ -133,7 +133,7 @@ main {
     background: linear-gradient(to right,rgb(156, 156, 221) , rgb(34, 34, 202));
     height: 750px;
     padding-top: 70px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 /* Formulario */
 
@@ -153,7 +153,6 @@ form{
 }
 
 .controls{
-    width: 100%;
     margin-top: 17px;
     height: 30px;
     width: 420px;
@@ -171,6 +170,7 @@ form .controls:hover{
 
 form .boton1{
     margin-top: 10px;
+    
 
 }
 /* Fin -Input boton*/
@@ -234,4 +234,13 @@ form select:hover{
 
 #Axel{
     background: rgb(68, 1, 1);
+}
+
+#Axel2{
+    margin-top: 17px;
+    height: 40px;
+    width: 432px;
+    color: rgb(230, 53, 53);
+    text-align: center;
+    background: black;
 }
