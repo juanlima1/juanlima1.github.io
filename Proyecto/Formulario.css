@@ -141,7 +141,7 @@ form{
     color: rgb(207, 167, 93);
     text-transform: uppercase;
 }
-
+/* LABEL */
 label{
     margin-left: 43%;
 }
@@ -149,6 +149,7 @@ label{
 .label-cambio{
     margin-left: 32%;
 }
+/* FIN-LABEL */
 
 #Felicidad {
     margin: 0% 0% 0% 190px;
