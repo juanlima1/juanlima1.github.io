@@ -82,11 +82,13 @@ header button a:hover{
 /* Fin */
 
 aside {
-    height: 869px;
+    height: 875px;
     padding: 10px;
     box-sizing: border-box;
     border: 3px solid black;
 }
+
+/* Aside-Izquierdo */
 
 #aside-izquierdo {
     background-color: orange;
@@ -126,7 +128,9 @@ figcaption {
     width: 220px;
     height: 200px;
 }
+/* FIN - Aside-Izquierdo */
 
+/* Aside-Derecho*/
 #aside-derecho {
     background-color: rgb(117, 18, 18);
     float: right;
@@ -135,6 +139,7 @@ figcaption {
 
 .Cabeza{
     margin-top: 40px;
+    text-align: center;
 }
 
 #segundo{
@@ -143,27 +148,10 @@ figcaption {
 #cesped{
     text-align: right;
 }
-
-#aside-derecho ul{
-    list-style-type: none;
-}
-#aside-derecho ul li{
-    margin-top: 80px;
-    margin-bottom: 60px;
-    padding-left: 30px;
-}
-
-#aside-derecho ul li a{
-    text-decoration: none;
-    color: rgb(100, 180, 177);
-}
-#aside-derecho h3{
-    text-align: center;
-}
 #Yotube{
     color: aqua;
     text-decoration: none;
-    margin-left: 100px;
+    margin-left: 97px;
 }
 
 .roto4{
@@ -188,16 +176,16 @@ figcaption {
 main{
     margin: 0 20%;
     padding: 20px;
-    box-sizing: border-box;
     background-image:url(/Proyecto/imagenes/mick.jpg);
 }
 
 h2{
     text-align: center;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 21px;
     color: wheat;
 }
+
 section.columnas{
     float: left;
     padding: 10px;
@@ -209,12 +197,17 @@ section.columnas{
 
 section.columnas p{
     break-after: column;
+    line-height: 33px;
+    color: black;
+    font-size: 18px;    
 }
 
+/* Encabezadores */
 .tiempo{
     text-align: center;
-    color: black;
+    color: rgb(231, 167, 46);
 }
+/* Fin-Encabezadores */
 
 
 footer{
