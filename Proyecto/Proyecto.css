@@ -40,10 +40,9 @@ header nav ul li{
     font-size: 135%;
 }
 
-#Noob{
-    background-color: rgb(68, 1, 1);
+#Feo1{
+    background: rgb(68, 1, 1);
 }
-
 header nav ul li:hover{
     transform: scale(1.6);
 }
@@ -92,12 +91,12 @@ header button a:hover{
 aside {
     background-color: rgb(119, 9, 9);
     width: 14%;
-    height: 1134px;
+    height: 1152px;
     float: left;
     border: wheat solid;
 }
 aside h3{
-    color: black;
+    color: rgb(163, 62, 62);
     padding-top: 50px;
     text-transform: uppercase;
     padding-left: 15%;
@@ -107,8 +106,8 @@ aside ul{
     list-style-type: none;
 }
 aside ul li{
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 110px;
+    margin-bottom: 110px;
     padding-left: 45px;
 }
 aside ul li a{
@@ -134,30 +133,47 @@ aside ul li a{
     margin-left: 17.5%;
 }
 /* Fin - Aside */
+
 /* Main */
 main { 
     background-image: url(/Proyecto/imagenes/1200.jpg);
-    height: 1100px;
+    height: 1120px;
     padding-left: 16%;
 }
 main,h3,p{
     padding-top: 1%;
-    padding-bottom: 1.6%;
+    padding-bottom: 1%;
     font-size: 113%;
     color: rgb(148, 104, 21);
 }
-.Captura{
+
+.Content1{
+    color: red;
+    text-transform: uppercase;
+}
+#Captura{
     height: 370px;
+    display: block;
+}
+main a{
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+    margin-top: 15px;
 }
 
 /* Fin - Main */
 
 /* Footer */
 footer{
-    background: orange;
+    background: red;
+    height: 76px;
     text-align: center;
+    color: white;
+    font-size: 18px;
 }
-
-#Feo{
-    background: rgb(68, 1, 1);
+footer p{
+    padding: 0.4%;
+    color: white;
 }
+/* Fin - Footer */
