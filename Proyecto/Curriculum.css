@@ -36,6 +36,9 @@ header nav ul li{
     padding: 0px 70px ;
     font-size: 135%;
 }
+#Noob{
+    background: rgb(68, 1, 1);
+}
 
 header nav ul li:hover{
     transform: scale(1.6);
@@ -78,20 +81,18 @@ main {
 .Informacion{
     background-color: rgb(168, 16, 16);
     padding: 25px;
+    padding-left: 2%;
 }
 .Informacion p{
     padding: 10px;
-    padding-left: 30%;
 }
 .Informacion h3{
     text-transform: uppercase;
     color: wheat;
-    padding-left: 30%;
 }
-.Informacion a{
-    text-decoration: none;
-    color: aqua;
-}
+
+
+
 
 /* tablas */
 
@@ -205,6 +206,3 @@ h4{
 }
 
 
-#Noob{
-    background: rgb(68, 1, 1);
-}
