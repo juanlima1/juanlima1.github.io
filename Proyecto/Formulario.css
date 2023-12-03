@@ -150,6 +150,10 @@ label{
     margin-left: 32%;
 }
 
+#Felicidad {
+    margin: 0% 0% 0% 190px;
+}
+
 #Form-nuevo{
     margin-left: 40%;
 }
@@ -162,7 +166,6 @@ label{
     text-align: center;
     margin-bottom: 18px;
 }
-
 
 form .controls:hover{
     background-color: rgb(157, 163, 197);
