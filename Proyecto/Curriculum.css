@@ -55,31 +55,16 @@ header nav ul li a{
     transition: all 0.84s;
 }
 
-header button{
-    transition: all 0.4s;
-    background: rgb(78, 76, 76);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.5s;
-
-}
-
-header button:hover{
-    background-color: blue;
-    transform: scale(1.1);
-}
-
-header button a{
+#Raton{
     text-decoration: none;
-    color:red;
-}
-
-header button a:hover{
     color: rgb(207, 167, 93);
-    transform: scale(1.1);
 }
 
+#Raton:hover{
+    transform: scale(1.1);
+    color:red;
+
+}
 
 .container {
     display: flex;
@@ -108,7 +93,7 @@ main {
     color: aqua;
 }
 
-
+/* tablas */
 
 .tablas{
     background: linear-gradient(to right,rgb(97, 97, 141) , rgb(61, 61, 175));

@@ -75,13 +75,13 @@ header button:hover{
     transform: scale(1.1);
 }
 
-header button a{
+#Proyecto-Form{
     text-decoration: none;
-    color:red;
+    color: rgb(207, 167, 93);
 }
 
-header button a:hover{
-    color: rgb(207, 167, 93);
+#Proyecto-Form:hover{
+    color:red;
     transform: scale(1.1);
 }
 
