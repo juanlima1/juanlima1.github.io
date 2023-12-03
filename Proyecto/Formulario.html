@@ -31,7 +31,7 @@
         <a href="Sobre-Proyecto.html" target="_blank" id="Proyecto">Proyecto</a>
     </header>
         <aside>
-            <h4>Mis Redes Sociales</h4>
+            <h4 id="Aside-cabeza">Mis Redes Sociales</h4>
             <ul>
                 <li>
                     <a href="#" target="_blank">INSTAGRAM</a>
@@ -52,28 +52,33 @@
         </aside>
         <main>
             <form action="#" method="get">
-                <h3 class="Patron">Formulario </h3>
-                <input type="text" class="controls" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre">
-                <input type="text" class="controls" name="Apellidos" id="Apellidos" value="Ingrese sus Apellidos">
-                <input type="email" class="controls" name="Correo" value="Ingrese su correo" >
-                <input type= "date" class="controls">
-                <input type="text" class="controls" placeholder="Deja tu critica constructiva">
-                <input type="text" class="controls" placeholder="Cuando es tu cumpleaños">
-                <input type="number" class="controls" required placeholder="Selecione su edad" min="10" max="50" >
+                <h3 id="Patron">Formulario </h3>
+                <label for="Nombre">Nombre</label>
+                <input type="text" class="controls"  id="Nombre" placeholder="Ingrese su Nombre">
+                <label for="Apellidos">Apellidos</label>
+                <input type="text" class="controls" name="Apellidos" id="Apellidos" placeholder="Ingrese sus Apellidos">
+                <label for="Correo">Correo</label>
+                <input type="email" class="controls" id="Correo" placeholder="Ingrese su correo" >
+                <label for="Hora"  id="Form-nuevo">Ponga la hora</label>
+                <input type= "date" class="controls" id="Hora">
+                <label for="Critica" class="label-cambio" >Deja tu critica constructiva</label>
+                <input type="text" class="controls" id="Critica" placeholder="Deja tu critica constructiva">
+                <label for="cumpleaños" class="label-cambio" >Cuando es tu cumpleaños</label>
+                <input type="text" id="cumpleaños" class="controls" placeholder="Cuando es tu cumpleaños">
+                <label for="edad" class="label-cambio" >Seleccione su edad</label>
+                <input type="number" class="controls"id="edad" required placeholder="Selecione su edad" min="10" max="50" >
+                <label for="">Felicidad</label>
+                <input type="range" class="controls">
+                <label for="Axel12" class="label-cambio" >Escoga su color favorito</label>
                 <input type="color" id="Axel2" >
-                <input type="password" class="controls" required placeholder="Escriba su Contraseña">
-                <button type="submit" class="boton1" onclick="myfuncion()">
-                    <img src="imagenes/flecha.png" alt="imagen" width="14" style="vertical-align: middle;" height="14"> 
-                    Enviar
-                </button>
-                
+                <label for="contraseña" class="label-cambio">Escriba su Contraseña</label>
+                <input type="password" class="controls" required placeholder="Escriba su Contraseña" id="contraseña">
                 <p>Sexo
-                    <br>
                     <input type="radio" name="hm" value="h">Hombre
                     <input type="radio" name="hm" value="m">Mujer
                     <input type="radio" name="hm" value="no">Prefiero no decirlo
                 </p>
-                    <p>Cuanto le das de nota del 1 al 10 de la pagina web</p>
+                <p>Cuanto le das de nota del 1 al 10 de la pagina web</p>
                     <select>
                     <option value="1">Uno</option>
                     <option value="2">Dos</option>
@@ -86,10 +91,13 @@
                     <option value="9">Nueve</option>
                     <option value="10">Diez</option>
                     </select>
-                    <br>
-                    <br>
-                    <p class="we">Estoy de acuerdo con</p><p class="re"> Terminos y Condiciones</p>
+                <p class="we">Estoy de acuerdo con</p>
+                <p class="re"> Terminos y Condiciones</p>
                     <input type="checkbox" class="boton">
+                    <button type="submit" class="boton1" onclick="myfuncion()">
+                        <img src="imagenes/flecha.png" alt="imagen" width="14" style="vertical-align: middle;" height="14"> 
+                        Enviar
+                    </button>
             </form>
         </main>
         <footer class="PieForm">
