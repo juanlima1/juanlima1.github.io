@@ -2,20 +2,23 @@
     margin: 0%;
     padding: 0%;
 }
-body{   
-    margin: auto;
+body {
+    margin: 0;
+    background-image:url(/Proyecto/imagenes/ficticius.jpg);
 }
-.header{
+
+header{
     background: linear-gradient(to right, #8c87c4, rgb(14, 45,65 ));
     display:flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
     padding: 10px 5%;
+    position:sticky;
+    top: 0;
+    z-index: 1;
 }
-
-/* Imagen */
-
+/* Nav */
 .Imagen1 img{
     border-radius: 75%;
     height: 74px;
@@ -27,46 +30,38 @@ body{
     transform: scale(1.2);
 }
 
-/*Fin-Imagen */
-
-/* Listas */
-
-.header nav ul{
+header nav ul{
     list-style-type: none;
 }
 
-.header nav ul li{
+header nav ul li{
     display: inline-block;
-    padding: 0px 33px ;
+    padding: 0px 70px ;
+    font-size: 135%;
 }
 
-.header nav ul li:hover{
+#Noob{
+    background-color: rgb(68, 1, 1);
+}
+
+header nav ul li:hover{
     transform: scale(1.6);
 }
-
-/* Fin - Listas */
-
-/* Enlace */
-
-.header nav ul li a:visited{
-    color: red;   
-}
-
-.header nav ul li a:hover{
-    color: black;
-}
-
-.header nav ul li a{
+header nav ul li a{
     color: rgb(207, 167, 93);
     text-decoration: none;
     transition: all 0.84s;
 }
 
-/* Fin - Enlace */
+header nav ul li a:visited{
+    color: red;   
+}
 
-/* Boton */
+header nav ul li a:hover{
+    color: black;
+}
 
-.header button{
+header button{
     transition: all 0.4s;
     background: rgb(78, 76, 76);
     border: none;
@@ -76,21 +71,22 @@ body{
 
 }
 
-.header button:hover{
+header button:hover{
     background-color: blue;
     transform: scale(1.1);
 }
 
-.header button a{
+header button a{
     text-decoration: none;
     color:red;
 }
 
-.header button a:hover{
+header button a:hover{
     color: rgb(207, 167, 93);
     transform: scale(1.1);
 }
-/* FIN NAV */
+
+/* Fin */
 
 aside {
     background-color: rgb(223, 23, 23);
