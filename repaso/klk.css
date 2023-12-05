@@ -1,0 +1,35 @@
+*{
+    margin: auto;
+}
+
+
+#Izquierdo{
+    float: left;
+    width: 300px;
+    height: 500px;
+    background: green;
+}
+
+#Derecho{
+    float: right;
+    width: 350px;
+    height: 500px;
+    background: red;
+}
+
+main{
+    background-color: yellow;
+}
+
+p{
+    text-align: justify;
+}
+
+div{
+    display: flex;
+}
+
+
+main{
+    margin: 0%;
+}
